@@ -1,3 +1,6 @@
+body{
+  background-color: #e0dbd1;
+}
 #root {
   max-width: 1200px;
   margin: 0 auto;
@@ -9,8 +12,34 @@
 }
 
 .card {
+  background-color: #eae7e1;
   margin: 1rem;
-  border: 1px solid gray;
+  border: 1px solid #d6cfc2;
+  border-radius: 33px;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+}
+
+.card:hover{
+  box-shadow: 4px 10px 50px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  padding-bottom:50px;
+}
+
+h1 {
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
+  color: #716844;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  margin: 1rem;
 }
 
 @media screen and (min-width: 600px) {
